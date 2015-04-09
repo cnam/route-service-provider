@@ -14,10 +14,10 @@
     ],
     "autoload": {
         "psr-4": {
-            "Silex\\Provider\\": "src/Silex/Provider/",
+            "Silex\\Provider\\": "src/Silex/Provider/"
         }
     },
     "require": {
-        "pimple/pimple": "3.0.*",
+        "pimple/pimple": "3.0.*"
     }
 }
