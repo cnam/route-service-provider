@@ -1,0 +1,23 @@
+{
+    "name": "cnam/route-service-provider",
+    "description": "Route Service Provider for usage in silex 2.0",
+    "minimum-stability": "beta",
+    "authors": [
+        {
+            "name": "Anton Popov",
+            "email": "cnam812@gmail.com"
+        },
+        {
+            "name": "V",
+            "email": "v.tyubek@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Silex\\Provider\\": "src/Silex/Provider/",
+        }
+    },
+    "require": {
+        "pimple/pimple": "3.0.*",
+    }
+}
